@@ -1,27 +1,28 @@
 apiVersion: v1
 entries:
-  nginx-ingress:
-  - apiVersion: v1
-    appVersion: 0.32.0
-    created: 2020-07-07T20:59:47.845657+09:00
-    description: An nginx Ingress controller that uses ConfigMap to store the nginx
-      configuration.
-    digest: cff9136ff2f5bcceb07403920bd1069e11ad6e9669f60ed3b167506d9ad4519a
-    engine: gotpl
+  ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - Fix chart-releaser action
+    apiVersion: v2
+    appVersion: 0.41.2
+    created: "2020-12-21T09:56:50.480263+09:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 78764f04aac60035cd8a30f61651b9928c34a6be6635c82c74f526bdf5c858c8
     home: https://github.com/kubernetes/ingress-nginx
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
     keywords:
     - ingress
     - nginx
-    kubeVersion: '>=1.10.0-0'
+    kubeVersion: '>=1.16.0-0'
     maintainers:
     - name: ChiefAlexander
-    - email: Trevor.G.Wood@gmail.com
-      name: taharah
-    name: nginx-ingress
+    name: ingress-nginx
     sources:
     - https://github.com/kubernetes/ingress-nginx
+    type: application
     urls:
-    - https://github.com/ICpTrial/MyHelmRepo/nginx-ingress-1.40.2.tgz
-    version: 1.40.2
-generated: 2020-07-07T20:59:47.842384+09:00
+    - https://github.com/ICpTrial/MyHelmRepo/ingress-nginx-3.15.2.tgz
+    version: 3.15.2
+generated: "2020-12-21T09:56:50.477979+09:00"
