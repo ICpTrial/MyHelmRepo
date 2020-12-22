@@ -23,6 +23,6 @@ entries:
     - https://github.com/kubernetes/ingress-nginx
     type: application
     urls:
-    - https://github.com/ICpTrial/MyHelmRepo/ingress-nginx-3.15.2.tgz
+    - https://github.com/ICpTrial/MyHelmRepo/raw/master/ingress-nginx-3.15.2.tgz
     version: 3.15.2
 generated: "2020-12-21T09:56:50.477979+09:00"
