@@ -4,7 +4,7 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - Fix chart-releaser action
-    apiVersion: v2
+    apiVersion: v1
     appVersion: 0.41.2
     created: "2020-12-21T09:56:50.480263+09:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
